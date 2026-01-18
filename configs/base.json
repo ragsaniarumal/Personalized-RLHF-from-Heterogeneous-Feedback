@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "top_users": 5,
+  "train_per_user": 5373,
+  "representation": {
+    "input_dim": 4096,
+    "hidden_dim": 512,
+    "representation_dim": 64,
+    "dropout": 0.1
+  },
+  "training": {
+    "epochs": 5,
+    "batch_size": 64,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001
+  },
+  "cluster_dpo": {
+    "clusters": 2,
+    "beta": 0.1,
+    "em_rounds": 3
+  }
+}
