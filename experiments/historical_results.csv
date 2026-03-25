@@ -1,0 +1,6 @@
+method,gptj_original,gptj_course,llama3_original,llama3_course
+Naive,0.655,0.691,0.660,0.572
+PG,0.670,0.607,0.685,0.690
+PL,0.658,0.695,0.535,0.508
+CG,0.668,0.611,0.682,0.743
+CL,0.530,0.622,0.525,0.391

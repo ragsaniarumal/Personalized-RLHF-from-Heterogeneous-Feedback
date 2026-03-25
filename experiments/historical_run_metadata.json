@@ -1,0 +1,17 @@
+{
+  "course": "CS-6103",
+  "semester": "Semester 2",
+  "dataset": "Reddit TL;DR / openai summarize_from_feedback comparisons",
+  "workers": 5,
+  "train_pairs_per_worker": 5373,
+  "historical_train_pairs": 26865,
+  "historical_validation_pairs": 6190,
+  "backbones": [
+    "GPT-J 6B",
+    "LLaMA3 8B"
+  ],
+  "metric": "pairwise preference accuracy",
+  "reported_transfer_result": "within approximately 1 percentage point of Algorithm 1 on held-out users",
+  "reported_cluster_sweep": "K=1 < K=2 > K=5",
+  "provenance": "retained course presentation; original repository/checkpoints unavailable"
+}
