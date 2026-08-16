@@ -1,4 +1,4 @@
-# Personalized RLHF from Heterogeneous Human Feedback
+# Personalized RLHF from Heterogeneous Feedback
 
 Course project by **Tanmay Gejapati and Rumal Ragsania**.
 
